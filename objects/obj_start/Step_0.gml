@@ -8,8 +8,5 @@ if timer <= 0 {instance_activate_all();}
 if not nextRoom {sound_maintheme();}
 if timer <= -invisibleTime {
 	image_alpha = 0;
-	if nextRoom {
-		sound_maintheme();
-		room_goto_next();
-		}
+	if nextRoom {room_goto_next();}
 	}

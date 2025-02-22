@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"spr_shield_down",
   "bboxMode":2,
-  "bbox_bottom":15,
+  "bbox_bottom":16,
   "bbox_left":0,
   "bbox_right":15,
   "bbox_top":13,

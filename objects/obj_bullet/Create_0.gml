@@ -1,0 +1,2 @@
+currentspd = speed;
+currentdir = direction;

@@ -12,11 +12,14 @@ function player_check_collision() {
 		if place_meeting(x, y, obj_eye) player_death();
 		if place_meeting(x, y, obj_bug) player_death();
 		if place_meeting(x, y, obj_spikes) player_death();
+		if place_meeting(x, y, obj_alien) player_death();
+		if place_meeting(x, y, obj_bullet) player_death();
 	}
 }
 
 function player_death() {
 	sound_explosion1();
+	global.score -= 50;
 	deathTimer = 60;
 	alive = false;
 	image_index = 0
